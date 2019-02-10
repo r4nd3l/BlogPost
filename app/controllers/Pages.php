@@ -24,4 +24,13 @@
 
       $this->view('pages/about', $data);
     }
+
+    public function database(){
+      $data = [
+        'title' => 'Database',
+        'description' => 'Database setup'
+      ];
+
+      $this->view('pages/database', $data);
+    }
   }

@@ -13,6 +13,9 @@
         <li class="nav-item">
           <a class="nav-link" href="<?php echo URLROOT; ?>/pages/about">About</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link text-warning" href="<?php echo URLROOT; ?>/pages/database"><i class="fas fa-exclamation-triangle faa-flash animated"></i> Database</a>
+        </li>
       </ul>
 
       <ul class="navbar-nav ml-auto">

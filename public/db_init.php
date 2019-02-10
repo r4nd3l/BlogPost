@@ -23,4 +23,4 @@
 
   $db->execute();
 
-  echo "Database successfuly installed!";
+  echo "DB well done!";
