@@ -6,5 +6,7 @@
     </div>
   </div>
   <!-- Include the db_init.php and change the text according to the current notification! -->
+<?php if($data !== null) :  ?>
   <p>Click here to <a href="<?php echo URLROOT; ?>/db_init.php" target="_blank">proceed</a></p>
+<?php endif; ?>
 <?php require APPROOT . '/views/inc/footer.php'; ?>
