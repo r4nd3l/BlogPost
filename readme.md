@@ -3,4 +3,10 @@ Html, Css and Php based Responsive Blogging website - exercise
 
 ![BlogPost](https://github.com/r4nd3l/BlogPost/blob/master/public/img/sample.png)
 
-#### Initialize Database with /db_init.php
+
+- Overwrite these files paths: (accoring to your system)
+  - app/config/config.php
+      define('URLROOT', 'http://localhost/Git/BlogPost');
+  - public/.htaccess
+      RewriteBase /Git/BlogPost/public
+- Initialize Database with /db_init.php
