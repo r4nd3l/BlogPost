@@ -9,4 +9,4 @@ Html, Css and Php based Responsive Blogging website - exercise
       define('URLROOT', 'http://localhost/Git/BlogPost');
   - public/.htaccess
       RewriteBase /Git/BlogPost/public
-- Initialize Database with /db_init.php
+- Create the database in PhpMyAdmin and db_init.php will do the rest

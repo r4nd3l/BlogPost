@@ -24,13 +24,13 @@
 
       $this->view('pages/about', $data);
     }
-
-    public function database(){
+    // fly
+    public function dbready(){
       $data = [
-        'title' => 'Database',
-        'description' => 'Database setup'
+        'title' => 'Database Ready',
+        'description' => 'Database setup succesful'
       ];
 
-      $this->view('pages/database', $data);
+      $this->view('pages/db_ready', $data);
     }
   }

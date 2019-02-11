@@ -21,6 +21,13 @@
       )"
     );
 
-  $db->execute();
+    // fly
+  $db_done = $db->execute();
 
-  echo "DB well done!";
+  //var_dump($db_done);exit;
+
+  if($db_done===true) {
+    rename('db_init.php', 'db_init.php.bak');
+    header('Location: pages/dbready');
+    exit;
+  }
